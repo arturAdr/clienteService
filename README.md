@@ -59,6 +59,8 @@ Então para rodar o projeto é só executar o comando:
 
 docker run -d -p 8000:8000 arturribeiro/clienteservice
 
+O usuário da api é admin e a senha é admin123
+
 Para a execução dos teste unitários é preciso entrar na docker com o seguinte comando:
 
 docker exec -it id_da_docker bash 
