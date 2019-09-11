@@ -1,5 +1,5 @@
 
-# API REST Agendamento
+# API REST Clientes
 
 ## Tecnologias
 Neste projeto foi usado as seguintes tecnologias,
@@ -18,7 +18,7 @@ Banco de dados [SQLite](https://www.sqlite.org/) foi usado neste projeto por ser
 
 ### Manipuladores e Roteamento
 **Método**|**URL**|**Ação**
-:--:|:--:|:--:|:--:
+:--:|:--:|:--:
 POST|`http://127.0.0.1:8000/clientes/`|cria um novo cliente
 GET|`http://127.0.0.1:8000/clientes/`|lista os clientes
 GET|`http://127.0.0.1:8000/clientes/<id_cliente>/`|Detalhe do cliente
